@@ -7,16 +7,44 @@
    --secondary-font: "Merriweather", serif;
    --primary-color: #ffd700;
    --secondary-color: #ffffff;
+   --tertiary-color: #50C878;
 
 }
 
 /* global styles */
 
-#custom-text {
-
+#custom {
+    font-family: "Montenegrin Gothic One", sans-serif;
+    color: var(--secondary-color);
 }
 h1 {
     font-family: var(--primary-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* hero section */
+#hero {
+    background-image: url("../images/radiance-hero-image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* navigation */
+nav#nav {
+    background-color: var(--tertiary-color) !important;
+}
+
+p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+/* button */
+#button {
+    background-color: var(--primary-color) !important;
+    border: none;
+
 }
 
