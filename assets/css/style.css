@@ -1,0 +1,22 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montenegrin+Gothic+One&display=swap');
+
+/* css variables */
+:root {
+   --primary-font: "Montenegrin Gothic One", sans-serif;
+   --secondary-font: "Merriweather", serif;
+   --primary-color: #ffd700;
+   --secondary-color: #ffffff;
+
+}
+
+/* global styles */
+
+#custom-text {
+
+}
+h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+
