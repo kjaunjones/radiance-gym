@@ -55,9 +55,16 @@ h2 {
 
 /* navigation */
 nav#nav {
-    background-color: var(--secondary-color) !important;
+    background-color: var(--tertiary-color) !important;
+    margin-right: 10px;
 }
 
+.nav-link {
+    color: var(--secondary-color) !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
 p {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
