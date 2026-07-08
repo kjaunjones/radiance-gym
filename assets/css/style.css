@@ -7,7 +7,7 @@
    --secondary-font: "Merriweather", serif;
    --primary-color: #ffd700;
    --secondary-color: #ffffff;
-   --tertiary-color: #50C878;
+   --tertiary-color: #000000;
 
 }
 
@@ -24,9 +24,9 @@ h1 {
 
 h2 {
     font-family: var(--secondary-font);
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
     text-transform: uppercase;
 
 }
@@ -42,6 +42,7 @@ h2 {
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 20px;
     margin-bottom: 50px;
     border-radius: 15px;
 }
@@ -59,8 +60,8 @@ nav#nav {
 
 p {
     font-family: var(--secondary-font);
-    color: black;
-    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-size: 16px;
 }
 
 /* button */
@@ -71,5 +72,40 @@ p {
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: black;
+}
+
+/* classes section */
+
+#classes .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+#classes .card:hover {
+  transform: translateY(-8px);
+}
+
+#classes .card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+#classes .card-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#classes .card-footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.card-text {
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
 }
