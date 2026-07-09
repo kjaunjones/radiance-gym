@@ -162,14 +162,23 @@ p {
 }
 
 /* button */
- #button {
-    background-color: var(--primary-color) !important;
-    border: none;
+ .hero-btn {
+    display: inline-block;
+    background-color: var(--primary-color);
     color: var(--tertiary-color);
     font-family: var(--primary-font);
     text-transform: uppercase;
+    text-decoration: none;
     letter-spacing: 1px;
-    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 body {
@@ -177,7 +186,6 @@ body {
 }
 
 /* classes section */
-
 #classes .card {
   border: none;
   transition: transform 0.3s ease;
@@ -212,6 +220,76 @@ body {
 }
 
 /* form section */
+#booking-form {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Form container */
+#booking-form .col-12.col-md-8 {
+    background-color: var(--secondary-color);
+    padding: 2.5rem;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 215, 0, 0.4);
+}
+
+/* Heading */
+#booking-form h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+/* Labels */
+#booking-form .form-label {
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+    font-weight: bold;
+}
+
+/* Inputs */
+#booking-form .form-control,
+#booking-form .form-select {
+    background-color: #ffffff;
+    color: var(--tertiary-color);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-family: var(--secondary-font);
+}
+
+/* Input focus */
+#booking-form .form-control:focus,
+#booking-form .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+}
+
+/* Hidden option */
+#hidden-option {
+    display: none;
+}
+
+/* Submit button */
+#booking-form .btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+}
+
+/* Button hover */
+#booking-form .btn-primary:hover {
+    background-color: #e6c200;
+    color: var(--tertiary-color);
+}
+
 /* Footer */
 #footer {
   background-color: var(--tertiary-color);
