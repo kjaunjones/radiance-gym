@@ -31,11 +31,91 @@ h2 {
 
 }
 
-/* footer text */
-#footer p {
+/* ======================
+   MEMBERSHIP SECTION
+====================== */
+
+#membership {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Section heading */
+#membership .display-5 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Cards */
+#membership .card {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+#membership .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2) !important;
+}
+
+/* Highlight the Premium card */
+#membership .border-primary {
+    border: 10px solid var(--primary-color) !important;
+}
+
+/* Card body spacing */
+#membership .card-body {
+    padding: 2.5rem 2rem;
+}
+
+/* Plan names */
+#membership h3 {
+    font-family: var(--primary-font);
+    color: var(--tertiary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+/* Prices */
+#membership .card-body h2 {
+    font-family: var(--primary-font);
+    color: var(--tertiary-color);
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+/* Features */
+#membership .card-body p {
     font-family: var(--secondary-font);
-    color: var(--secondary-color);
-    font-size: 16px;
+    color: var(--tertiary-color);
+    margin-bottom: 0.75rem;
+}
+
+/* Buttons */
+#membership .btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--tertiary-color);
+    font-family: var(--primary-font);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+
+#membership .btn:hover {
+    background-color: #e6c200;
+    color: var(--tertiary-color);
+    transform: scale(1.03);
 }
 
 /* hero section */
@@ -181,4 +261,11 @@ body {
 
 #footer p {
   color: var(--secondary-color);
+}
+
+/* footer text */
+#footer p {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: 16px;
 }
