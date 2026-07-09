@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RADIANCE GYM Membership Plans. Choose from Basic, Premium, or Elite memberships to suit your fitness goals. Join now and start your fitness journey!">
+    <title>RADIANCE GYM | Membership</title>
+
+    <!-- Favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/favicon/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+     <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- Bootstrap 5 CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"  rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+    
+<body class="d-flex flex-column min-vh-100"> <!-- min-vh-100 added to make footer stick to bottom -->
+    <!-- navigation -->
+     <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary" >
+    <a class="navbar-brand" href="index.html" id="custom"> RADIANCE GYM</a>
+    <button id="button"class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link"  href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="membership.html">membership</a> 
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html#classes">Classes</a>
+        </li>  
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#footer">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    
+<!-- main content  -->
+ <main class="flex-grow-1">
+    <!-- Form -->     <!-- form code copied from boardwalk games starter code-->
+     <section id="booking-form" class="container section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <h2>Membership </h2>
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-control" id="name">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-control" id="email">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="phone" class="form-label">Phone number</label>
+                            <input class="form-control" id="phone">
+                        </div>
+                        <div class="col-12 col-lg-6 mb-3">
+                            <label for="event-type" class="form-label">Event type</label>
+                            <select id="event-type" class="form-select">
+                                <option selected>BASIC</option>
+                                <option value="regular-play">PREMIUM</option>
+                                <option value="dnd">ELITE</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" rows="6" id="message"></textarea>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+ </main>
+ <!-- Footer -->
+<footer id="footer" class="py-5 mt-5" class="mt-auto"> <!-- mt auto added to push footer to bottom -->
+  <div class="container">
+    <div class="row text-center text-lg-start">
+
+        <!-- Opening Times -->
+        <div class="col-lg-4">
+          <h4 class="footer-heading">Opening Times</h4>
+          <p class="mb-0">Monday - Friday: 6:00 AM - 10:00 PM</p>
+          <p class="mb-0">Saturday: 8:00 AM - 6:00 PM</p>
+          <p class="mb-0">Sunday: 9:00 AM - 4:00 PM</p>
+        </div>
+
+        <!-- Contact -->
+      <div class="col-lg-4">
+        <h4 class="footer-heading">Contact Us</h4>
+        <p class="mb-0">123 Fitness Street, Health City</p>
+        <p class="mb-0">Email: info@radiancegym.com</p>
+        <p class="mb-0">Phone: (123) 456-7890</p>
+      </div>
+
+      <!-- Brand -->
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <h3 class="footer-logo">RADIANCE GYM</h3>
+        <p>
+          Helping you radiate confidence and achieve your fitness goals through
+          expert training and a supportive community.
+        </p>
+      </div>
+
+      <!-- Socials -->
+      <div class="col-lg-4">
+        <h4 class="footer-heading">Follow Us</h4>
+        <a href="https://www.instagram.com" target="_blank" class="social-icon me-3" rel="noopener">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="social-icon me-3" rel="noopener">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon me-3" rel="noopener">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" class="social-icon" rel="noopener">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+      <p class="mb-0">
+         2026 RADIANCE GYM. All Rights Reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+      
+ <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/0010c1b56c.js" crossorigin="anonymous"></script>
+</body>
+</html>
