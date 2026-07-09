@@ -226,7 +226,7 @@ body {
 }
 
 /* Form container */
-#booking-form .col-12.col-md-8 {
+#membership-form .col-12.col-md-8 {
     background-color: var(--secondary-color);
     padding: 2.5rem;
     border-radius: 15px;
@@ -234,7 +234,7 @@ body {
 }
 
 /* Heading */
-#booking-form h2 {
+#membership-form h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
     text-transform: uppercase;
@@ -243,15 +243,15 @@ body {
 }
 
 /* Labels */
-#booking-form .form-label {
+#membership-form .form-label {
     font-family: var(--secondary-font);
     color: var(--tertiary-color);
     font-weight: bold;
 }
 
 /* Inputs */
-#booking-form .form-control,
-#booking-form .form-select {
+#membership-form .form-control,
+#membership-form .form-select {
     background-color: #ffffff;
     color: var(--tertiary-color);
     border: 1px solid #ccc;
@@ -261,8 +261,8 @@ body {
 }
 
 /* Input focus */
-#booking-form .form-control:focus,
-#booking-form .form-select:focus {
+#membership-form .form-control:focus,
+#membership-form .form-select:focus {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
 }
@@ -273,7 +273,7 @@ body {
 }
 
 /* Submit button */
-#booking-form .btn-primary {
+#membership-form .btn-primary {
     background-color: var(--primary-color);
     border: none;
     color: var(--tertiary-color);
@@ -285,7 +285,7 @@ body {
 }
 
 /* Button hover */
-#booking-form .btn-primary:hover {
+#membership-form .btn-primary:hover {
     background-color: #e6c200;
     color: var(--tertiary-color);
 }
