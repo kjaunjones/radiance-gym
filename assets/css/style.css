@@ -31,6 +31,8 @@ h2 {
 
 }
 
+
+
 /* Membership section */
 
 #membership {
@@ -308,11 +310,6 @@ body {
   color: var(--primary-color);
   text-transform: uppercase;
   margin-bottom: 1rem;
-}
-
-
-.footer-link:hover {
-  color: var(--primary-color);
 }
 
 .social-icon {
