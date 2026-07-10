@@ -53,13 +53,19 @@ h2 {
     background-color: var(--secondary-color);
     border: none;
     border-radius: 15px;
+    -webkit-transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+    transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
 }
 
 /* Hover effect */
 #membership .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2) !important;
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
+    -webkit-box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2) !important;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.2) !important;
 }
 
 /* Highlight the Premium card */
@@ -107,13 +113,18 @@ h2 {
     border-radius: 50px;
     padding: 0.75rem 2rem;
     margin-top: 1rem;
+    -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+    transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 #membership .btn:hover {
     background-color: #e6c200;
     color: var(--tertiary-color);
-    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
 }
 
 /* hero section */
@@ -122,9 +133,13 @@ h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 70vh;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
@@ -175,6 +190,7 @@ p {
     padding: 0.75rem 2rem;
     border-radius: 10px;
     margin-top: 1rem;
+    -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
 }
 
@@ -190,16 +206,22 @@ body {
 /* classes section */
 #classes .card {
   border: none;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 #classes .card:hover {
-  transform: translateY(-8px);
+  -webkit-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+          transform: translateY(-8px);
 }
 
 #classes .card-img-top {
   height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #classes .card-title {
@@ -266,7 +288,8 @@ body {
 #membership-form .form-control:focus,
 #membership-form .form-select:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
 }
 
 /* Hidden option */
@@ -315,12 +338,17 @@ body {
 .social-icon {
   color: var(--secondary-color);
   font-size: 1.5rem;
+  -webkit-transition: color 0.3s ease, -webkit-transform 0.3s ease;
+  transition: color 0.3s ease, -webkit-transform 0.3s ease;
   transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .social-icon:hover {
   color: var(--primary-color);
-  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 #footer hr {
